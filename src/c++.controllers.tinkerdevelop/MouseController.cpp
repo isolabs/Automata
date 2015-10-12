@@ -176,3 +176,13 @@ void MouseController::mouseMoveSpecificArea(int x, int y){
 		MouseController::mouseMove(x,y);
 	
 	};
+	
+void MouseController::hacerClicIzquierdoPosicion(int x, int y, int numero_clics){
+	
+		MouseController::mouseMoveSpecificArea( x,  y);
+		for (int i = 0; i < numero_clics; i++){
+			
+				 MouseController::mouseClick(Button1);
+			
+			}
+	};

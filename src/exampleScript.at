@@ -1,0 +1,18 @@
+# Ejemplo de un AutomataScript
+# -----------------------------------------
+#|	2015 - espiritupuro@rocketmail.com     |
+# -----------------------------------------
+#
+#	Esto es un ejemplo de comentarios de un
+#	AutomataScript
+#
+#	button1 = izquierdo
+#	button3 = derecho
+#
+#	SLEEP(2); Está definido en segundos.
+#
+
+GOTO(centerscreen);
+GOTO(15,20);
+CLIC(button1);
+SLEEP(2);
