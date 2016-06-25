@@ -186,3 +186,23 @@ void MouseController::hacerClicIzquierdoPosicion(int x, int y, int numero_clics)
 			
 			}
 	};
+	
+void MouseController::hacerClicDerechoPosicion(int x, int y, int numero_clics){
+	
+		MouseController::mouseMoveSpecificArea( x,  y);
+		for (int i = 0; i < numero_clics; i++){
+			
+				 MouseController::mouseClick(Button3);
+			
+			}
+	};
+	
+void MouseController::hacerClicScrollPosicion(int x, int y, int numero_clics){
+	
+		MouseController::mouseMoveSpecificArea( x,  y);
+		for (int i = 0; i < numero_clics; i++){
+			
+				 MouseController::mouseClick(Button2);
+			
+			}
+	};

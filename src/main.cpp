@@ -1,11 +1,12 @@
-#include "c++.controllers.tinkerdevelop/MouseController.cpp"
+#include "c++.controllers.tinkerdevelop/RunTime.cpp"
 
 int main(){
 	
-	MouseController x;
+	/*MouseController x;
 	
 	x.setMouseCenterScreen();
-	x.hacerClicIzquierdoPosicion(1000,653,2);
+	x.hacerClicScrollPosicion(713,554,2);
+	
 	system("sleep 5s");
 	x.hacerClicIzquierdoPosicion(713,554,2); // 1ra Segada
 	system("sleep 5s");
@@ -14,7 +15,12 @@ int main(){
 	x.hacerClicIzquierdoPosicion(624,532,2); // 3ra Segada
 	system("sleep 5s");
 	x.hacerClicIzquierdoPosicion(596,513,2); // 4ta Segada
-	system("sleep 5s");
+	system("sleep 5s");*/
+	
+	RunTime x;
+	
+	x.executeScript("/home/jeisonOS/NF.txt");
+	
 	return 0;
 	
 	}

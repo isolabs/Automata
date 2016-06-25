@@ -30,7 +30,9 @@ class MouseController{
 		PositionXY getMousePosition(void);
 		PositionXY getScreenResolution(void);
 		void hacerClicIzquierdoPosicion(int x, int y, int numero_clics);
-	
+		void hacerClicDerechoPosicion(int x, int y, int numero_clics);
+		void hacerClicScrollPosicion(int x, int y, int numero_clics);
+		
 	};
 
 #endif
