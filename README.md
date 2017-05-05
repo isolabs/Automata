@@ -1,6 +1,6 @@
-# Automata
+# Bot
 
-Automata para el control programado de ubicaciones de pantalla usando el puntero
+Bot para el control programado de ubicaciones en pantalla usando el puntero
 del mouse.
 
 Requiere: xdotool
