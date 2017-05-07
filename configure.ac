@@ -3,6 +3,7 @@
 
 AC_PREREQ([2.69])
 AC_INIT([Baymax-Bot], [0.1], [jeison.cardona@correounivalle.edu.co])
+AM_INIT_AUTOMAKE(summary, 1.0.0)
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([config.h])
 
